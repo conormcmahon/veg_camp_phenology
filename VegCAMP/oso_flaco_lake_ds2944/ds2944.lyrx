@@ -1,0 +1,4035 @@
+{
+  "type" : "CIMLayerDocument",
+  "version" : "2.7.0",
+  "build" : 26828,
+  "layers" : [
+    "CIMPATH=map/ation___pismo_state_beach_and_oceano_dunes_svra__ds2944_.xml"
+  ],
+  "layerDefinitions" : [
+    {
+      "type" : "CIMFeatureLayer",
+      "name" : "Vegetation - Pismo State Beach and Oceano Dunes SVRA [ds2944]",
+      "uRI" : "CIMPATH=map/ation___pismo_state_beach_and_oceano_dunes_svra__ds2944_.xml",
+      "sourceModifiedTime" : {
+        "type" : "TimeInstant",
+        "start" : 978307200000
+      },
+      "metadataURI" : "CIMPATH=Metadata/6e3c8ccfacfd813735b753f7d03d356c.xml",
+      "useSourceMetadata" : false,
+      "layerElevation" : {
+        "type" : "CIMLayerElevationSurface"
+      },
+      "expanded" : true,
+      "layer3DProperties" : {
+        "type" : "CIM3DLayerProperties",
+        "castShadows" : true,
+        "isLayerLit" : true,
+        "layerFaceCulling" : "None",
+        "maxDistance" : -1,
+        "minDistance" : -1,
+        "preloadTextureCutoffHigh" : 0,
+        "preloadTextureCutoffLow" : 0.25,
+        "textureCutoffHigh" : 0.25,
+        "textureCutoffLow" : 1,
+        "useCompressedTextures" : true,
+        "verticalExaggeration" : 1,
+        "exaggerationMode" : "ScaleZ",
+        "verticalUnit" : {
+          "uwkid" : 9001
+        },
+        "lighting" : "OneSideDataNormal"
+      },
+      "layerType" : "Operational",
+      "showLegends" : true,
+      "visibility" : true,
+      "displayCacheType" : "Permanent",
+      "maxDisplayCacheAge" : 5,
+      "showPopups" : true,
+      "serviceLayerID" : -1,
+      "refreshRate" : -1,
+      "refreshRateUnit" : "esriTimeUnitsSeconds",
+      "blendingMode" : "Alpha",
+      "autoGenerateFeatureTemplates" : true,
+      "featureElevationExpression" : "Shape.Z",
+      "featureTable" : {
+        "type" : "CIMFeatureTable",
+        "displayField" : "MCVName",
+        "editable" : true,
+        "fieldDescriptions" : [
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "OBJECTID_1",
+            "fieldName" : "OBJECTID",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignRight",
+              "alignmentWidth" : 12,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 0
+            },
+            "readOnly" : true,
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "Shape",
+            "fieldName" : "Shape",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "MCVName",
+            "fieldName" : "MCVName",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "MCVLevel",
+            "fieldName" : "MCVLevel",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "MapCode",
+            "fieldName" : "MapCode",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignRight",
+              "alignmentWidth" : 12,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 0
+            },
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "MapClass",
+            "fieldName" : "MapClass",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "CATEGORY",
+            "fieldName" : "CATEGORY",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "COMMENTS",
+            "fieldName" : "COMMENTS",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "Location",
+            "fieldName" : "Location",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "AREA_Acres",
+            "fieldName" : "AREA_Acres",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignRight",
+              "alignmentWidth" : 12,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 6
+            },
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "HABITAT",
+            "fieldName" : "HABITAT",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "CalVegType",
+            "fieldName" : "CalVegType",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "CalVegCode",
+            "fieldName" : "CalVegCode",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "CWHRType",
+            "fieldName" : "CWHRType",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "CWHRCode",
+            "fieldName" : "CWHRCode",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "GlobalRank",
+            "fieldName" : "GlobalRank",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "StateRank",
+            "fieldName" : "StateRank",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "Sensitive",
+            "fieldName" : "Sensitive",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "CaCode",
+            "fieldName" : "CaCode",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "MCVAlliance",
+            "fieldName" : "MCVAlliance",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "MCVGroup",
+            "fieldName" : "MCVGroup",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "MCVMacrogroup",
+            "fieldName" : "MCVMacrogroup",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "SHAPE_Length",
+            "fieldName" : "Shape_Length",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignRight",
+              "alignmentWidth" : 12,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 6
+            },
+            "readOnly" : true,
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "SHAPE_Area",
+            "fieldName" : "Shape_Area",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignRight",
+              "alignmentWidth" : 12,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 6
+            },
+            "readOnly" : true,
+            "visible" : true,
+            "searchMode" : "Exact"
+          }
+        ],
+        "timeFields" : {
+          "type" : "CIMTimeTableDefinition"
+        },
+        "timeDefinition" : {
+          "type" : "CIMTimeDataDefinition",
+          "hasLiveData" : true
+        },
+        "timeDisplayDefinition" : {
+          "type" : "CIMTimeDisplayDefinition",
+          "timeInterval" : 0,
+          "timeIntervalUnits" : "esriTimeUnitsHours",
+          "timeOffsetUnits" : "esriTimeUnitsYears"
+        },
+        "dataConnection" : {
+          "type" : "CIMStandardDataConnection",
+          "workspaceConnectionString" : "DATABASE=.\\ds2944.gdb",
+          "workspaceFactory" : "FileGDB",
+          "dataset" : "ds2944",
+          "datasetType" : "esriDTFeatureClass"
+        },
+        "studyAreaSpatialRel" : "esriSpatialRelUndefined",
+        "searchOrder" : "esriSearchOrderSpatial"
+      },
+      "htmlPopupEnabled" : true,
+      "htmlPopupFormat" : {
+        "type" : "CIMHtmlPopupFormat",
+        "htmlUseCodedDomainValues" : true,
+        "htmlPresentationStyle" : "TwoColumnTable"
+      },
+      "selectable" : true,
+      "selectionSymbol" : {
+        "type" : "CIMSymbolReference",
+        "symbol" : {
+          "type" : "CIMPolygonSymbol",
+          "symbolLayers" : [
+            {
+              "type" : "CIMSolidStroke",
+              "enable" : true,
+              "capStyle" : "Round",
+              "joinStyle" : "Round",
+              "lineStyle3D" : "Strip",
+              "miterLimit" : 10,
+              "width" : 2,
+              "color" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  0,
+                  255,
+                  255,
+                  100
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "featureCacheType" : "None",
+      "displayFiltersType" : "ByScale",
+      "featureBlendingMode" : "Alpha",
+      "labelClasses" : [
+        {
+          "type" : "CIMLabelClass",
+          "expression" : "[MCVName]",
+          "expressionEngine" : "VBScript",
+          "featuresToLabel" : "AllVisibleFeatures",
+          "maplexLabelPlacementProperties" : {
+            "type" : "CIMMaplexLabelPlacementProperties",
+            "featureType" : "Polygon",
+            "avoidPolygonHoles" : true,
+            "canOverrunFeature" : true,
+            "canPlaceLabelOutsidePolygon" : false,
+            "canRemoveOverlappingLabel" : true,
+            "canStackLabel" : true,
+            "connectionType" : "Unambiguous",
+            "constrainOffset" : "NoConstraint",
+            "contourAlignmentType" : "Page",
+            "contourLadderType" : "Straight",
+            "contourMaximumAngle" : 90,
+            "enableConnection" : true,
+            "featureWeight" : 0,
+            "fontHeightReductionLimit" : 4,
+            "fontHeightReductionStep" : 0.5,
+            "fontWidthReductionLimit" : 90,
+            "fontWidthReductionStep" : 5,
+            "graticuleAlignmentType" : "Straight",
+            "keyNumberGroupName" : "Default",
+            "labelBuffer" : 15,
+            "labelLargestPolygon" : false,
+            "labelPriority" : -1,
+            "labelStackingProperties" : {
+              "type" : "CIMMaplexLabelStackingProperties",
+              "stackAlignment" : "ChooseBest",
+              "maximumNumberOfLines" : 3,
+              "minimumNumberOfCharsPerLine" : 3,
+              "maximumNumberOfCharsPerLine" : 24,
+              "separators" : [
+                {
+                  "type" : "CIMMaplexStackingSeparator",
+                  "separator" : " ",
+                  "splitAfter" : true
+                },
+                {
+                  "type" : "CIMMaplexStackingSeparator",
+                  "separator" : ",",
+                  "visible" : true,
+                  "splitAfter" : true
+                }
+              ]
+            },
+            "lineFeatureType" : "General",
+            "linePlacementMethod" : "OffsetCurvedFromLine",
+            "maximumLabelOverrun" : 100,
+            "maximumLabelOverrunUnit" : "Point",
+            "minimumFeatureSizeUnit" : "Map",
+            "multiPartOption" : "OneLabelPerPart",
+            "offsetAlongLineProperties" : {
+              "type" : "CIMMaplexOffsetAlongLineProperties",
+              "placementMethod" : "BestPositionAlongLine",
+              "labelAnchorPoint" : "CenterOfLabel",
+              "distanceUnit" : "Percentage",
+              "useLineDirection" : true
+            },
+            "pointExternalZonePriorities" : {
+              "type" : "CIMMaplexExternalZonePriorities",
+              "aboveLeft" : 4,
+              "aboveCenter" : 2,
+              "aboveRight" : 1,
+              "centerRight" : 3,
+              "belowRight" : 5,
+              "belowCenter" : 7,
+              "belowLeft" : 8,
+              "centerLeft" : 6
+            },
+            "pointPlacementMethod" : "AroundPoint",
+            "polygonAnchorPointType" : "GeometricCenter",
+            "polygonBoundaryWeight" : 0,
+            "polygonExternalZones" : {
+              "type" : "CIMMaplexExternalZonePriorities",
+              "aboveLeft" : 4,
+              "aboveCenter" : 2,
+              "aboveRight" : 1,
+              "centerRight" : 3,
+              "belowRight" : 5,
+              "belowCenter" : 7,
+              "belowLeft" : 8,
+              "centerLeft" : 6
+            },
+            "polygonFeatureType" : "General",
+            "polygonInternalZones" : {
+              "type" : "CIMMaplexInternalZonePriorities",
+              "center" : 1
+            },
+            "polygonPlacementMethod" : "HorizontalInPolygon",
+            "primaryOffset" : 1,
+            "primaryOffsetUnit" : "Point",
+            "removeExtraWhiteSpace" : true,
+            "repetitionIntervalUnit" : "Map",
+            "rotationProperties" : {
+              "type" : "CIMMaplexRotationProperties",
+              "rotationType" : "Arithmetic",
+              "alignmentType" : "Straight"
+            },
+            "secondaryOffset" : 100,
+            "strategyPriorities" : {
+              "type" : "CIMMaplexStrategyPriorities",
+              "stacking" : 1,
+              "overrun" : 2,
+              "fontCompression" : 3,
+              "fontReduction" : 4,
+              "abbreviation" : 5
+            },
+            "thinningDistanceUnit" : "Point",
+            "truncationMarkerCharacter" : ".",
+            "truncationMinimumLength" : 1,
+            "truncationPreferredCharacters" : "aeiou",
+            "polygonAnchorPointPerimeterInsetUnit" : "Point"
+          },
+          "name" : "Default",
+          "priority" : 2,
+          "standardLabelPlacementProperties" : {
+            "type" : "CIMStandardLabelPlacementProperties",
+            "featureType" : "Line",
+            "featureWeight" : "None",
+            "labelWeight" : "High",
+            "numLabelsOption" : "OneLabelPerName",
+            "lineLabelPosition" : {
+              "type" : "CIMStandardLineLabelPosition",
+              "above" : true,
+              "inLine" : true,
+              "parallel" : true
+            },
+            "lineLabelPriorities" : {
+              "type" : "CIMStandardLineLabelPriorities",
+              "aboveStart" : 3,
+              "aboveAlong" : 3,
+              "aboveEnd" : 3,
+              "centerStart" : 3,
+              "centerAlong" : 3,
+              "centerEnd" : 3,
+              "belowStart" : 3,
+              "belowAlong" : 3,
+              "belowEnd" : 3
+            },
+            "pointPlacementMethod" : "AroundPoint",
+            "pointPlacementPriorities" : {
+              "type" : "CIMStandardPointPlacementPriorities",
+              "aboveLeft" : 2,
+              "aboveCenter" : 2,
+              "aboveRight" : 1,
+              "centerLeft" : 3,
+              "centerRight" : 2,
+              "belowLeft" : 3,
+              "belowCenter" : 3,
+              "belowRight" : 2
+            },
+            "rotationType" : "Arithmetic",
+            "polygonPlacementMethod" : "AlwaysHorizontal"
+          },
+          "textSymbol" : {
+            "type" : "CIMSymbolReference",
+            "symbol" : {
+              "type" : "CIMTextSymbol",
+              "blockProgression" : "TTB",
+              "compatibilityMode" : true,
+              "depth3D" : 1,
+              "drawSoftHyphen" : true,
+              "extrapolateBaselines" : true,
+              "flipAngle" : 90,
+              "fontEffects" : "Normal",
+              "fontEncoding" : "Unicode",
+              "fontFamilyName" : "Arial",
+              "fontStyleName" : "Regular",
+              "fontType" : "Unspecified",
+              "haloSize" : 1,
+              "height" : 8,
+              "hinting" : "Default",
+              "horizontalAlignment" : "Center",
+              "kerning" : true,
+              "letterWidth" : 100,
+              "ligatures" : true,
+              "lineGapType" : "ExtraLeading",
+              "shadowColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  0,
+                  0,
+                  0,
+                  100
+                ]
+              },
+              "symbol" : {
+                "type" : "CIMPolygonSymbol",
+                "symbolLayers" : [
+                  {
+                    "type" : "CIMSolidFill",
+                    "enable" : true,
+                    "color" : {
+                      "type" : "CIMRGBColor",
+                      "values" : [
+                        0,
+                        0,
+                        0,
+                        100
+                      ]
+                    }
+                  }
+                ]
+              },
+              "textCase" : "Normal",
+              "textDirection" : "LTR",
+              "verticalAlignment" : "Bottom",
+              "verticalGlyphOrientation" : "Right",
+              "wordSpacing" : 100,
+              "billboardMode3D" : "FaceNearPlane"
+            }
+          },
+          "useCodedValue" : true,
+          "visibility" : true,
+          "iD" : -1
+        }
+      ],
+      "renderer" : {
+        "type" : "CIMUniqueValueRenderer",
+        "colorRamp" : {
+          "type" : "CIMPolarContinuousColorRamp",
+          "colorSpace" : {
+            "type" : "CIMICCColorSpace",
+            "url" : "Default RGB"
+          },
+          "fromColor" : {
+            "type" : "CIMHSVColor",
+            "values" : [
+              40,
+              100,
+              45,
+              100
+            ]
+          },
+          "toColor" : {
+            "type" : "CIMHSVColor",
+            "values" : [
+              40,
+              21,
+              100,
+              100
+            ]
+          },
+          "interpolationSpace" : "HSV",
+          "polarDirection" : "Auto"
+        },
+        "defaultLabel" : "<all other values>",
+        "defaultSymbol" : {
+          "type" : "CIMSymbolReference",
+          "symbol" : {
+            "type" : "CIMPolygonSymbol",
+            "symbolLayers" : [
+              {
+                "type" : "CIMSolidStroke",
+                "enable" : true,
+                "capStyle" : "Round",
+                "joinStyle" : "Round",
+                "lineStyle3D" : "Strip",
+                "miterLimit" : 10,
+                "width" : 0.40000000000000002,
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    110,
+                    110,
+                    110,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMSolidFill",
+                "enable" : true,
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    247,
+                    210,
+                    193,
+                    100
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "defaultSymbolPatch" : "Default",
+        "fields" : [
+          "MapClass"
+        ],
+        "groups" : [
+          {
+            "type" : "CIMUniqueValueGroup",
+            "classes" : [
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Eucalyptus",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            80,
+                            100,
+                            45,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Eucalyptus"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Eucalyptus (globulus, camaldulensis)",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            80,
+                            93,
+                            50,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Eucalyptus (globulus, camaldulensis)"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Hesperocyparis macrocarpa",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            80,
+                            87,
+                            56,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Hesperocyparis macrocarpa"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Myoporum laetum",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            80,
+                            81,
+                            61,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Myoporum laetum"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Pinus contorta",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            80,
+                            75,
+                            67,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Pinus contorta"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Pinus radiata",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            80,
+                            68,
+                            73,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Pinus radiata"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Pinus torreyana",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            80,
+                            62,
+                            78,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Pinus torreyana"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Quercus agrifolia",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            80,
+                            56,
+                            84,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Quercus agrifolia"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Populus trichocarpa",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            80,
+                            50,
+                            90,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Populus trichocarpa"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Acacia longifolia",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            40,
+                            100,
+                            66,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Acacia longifolia"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Artemisia californica",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            40,
+                            95,
+                            67,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Artemisia californica"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Baccharis pilularis",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            40,
+                            90,
+                            69,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Baccharis pilularis"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Coreopsis gigantea",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            40,
+                            85,
+                            71,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Coreopsis gigantea"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Frangula californica",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            40,
+                            80,
+                            73,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Frangula californica"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Lotus scoparius",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            40,
+                            75,
+                            74,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Lotus scoparius"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Lupinus chamissonis",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            40,
+                            70,
+                            76,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Lupinus chamissonis"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Lupinus chamissonis - Ehrharta calycina",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            40,
+                            65,
+                            78,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Lupinus chamissonis - Ehrharta calycina"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Lupinus chamissonis - Ericameria ericoides",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            40,
+                            61,
+                            80,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Lupinus chamissonis - Ericameria ericoides"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Morella californica",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            40,
+                            56,
+                            82,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Morella californica"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Rubus ursinus",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            40,
+                            51,
+                            83,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Rubus ursinus"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Rubus spp.",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            40,
+                            46,
+                            85,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Rubus spp."
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Salix lasiolepis",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            40,
+                            41,
+                            87,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Salix lasiolepis"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Sambucus nigra",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            40,
+                            36,
+                            89,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Sambucus nigra"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Toxicodendron diversilobum",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            40,
+                            32,
+                            91,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Toxicodendron diversilobum"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Abronia latifolia - Ambrosia chamissonis",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            60,
+                            100,
+                            66,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Abronia latifolia - Ambrosia chamissonis"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Ambrosia chamissonis",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            60,
+                            92,
+                            69,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Ambrosia chamissonis"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Astragalus spp.",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            60,
+                            84,
+                            72,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Astragalus spp."
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Carpobrotus edulis",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            60,
+                            76,
+                            75,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Carpobrotus edulis"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Corethrogyne filaginifolia",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            60,
+                            68,
+                            78,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Corethrogyne filaginifolia"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Corethrogyne filaginifolia - Erigeron blochmannae",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            60,
+                            60,
+                            81,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Corethrogyne filaginifolia - Erigeron blochmannae"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Ericameria ericoides",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            60,
+                            52,
+                            84,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Ericameria ericoides"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Horkelia cuneata - Mucronea californica",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            60,
+                            44,
+                            87,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Horkelia cuneata - Mucronea californica"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Leymus condensatus",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            60,
+                            36,
+                            90,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Leymus condensatus"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Monardella crispa",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            60,
+                            28,
+                            93,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Monardella crispa"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Stephanomercia virgata",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            60,
+                            21,
+                            97,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Stephanomercia virgata"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Ammophila arenaria",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            20,
+                            100,
+                            66,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Ammophila arenaria"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Atriplex prostrata - Cotula coronopifolia",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            20,
+                            93,
+                            69,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Atriplex prostrata - Cotula coronopifolia"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Bromus diandrus - Brachypodium distachyon",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            20,
+                            87,
+                            72,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Bromus diandrus - Brachypodium distachyon"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Cakile maritima",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            20,
+                            81,
+                            75,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Cakile maritima"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Conium maculatum - Foeniculum vulgare",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            20,
+                            75,
+                            78,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Conium maculatum - Foeniculum vulgare"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Ehrharta calycina",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            20,
+                            69,
+                            81,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Ehrharta calycina"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Ehrharta calycina - Corethrogyne filaginifolia",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            20,
+                            63,
+                            84,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Ehrharta calycina - Corethrogyne filaginifolia"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Elymus farctus",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            20,
+                            57,
+                            87,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Elymus farctus"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Melilotus albus",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            20,
+                            51,
+                            91,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Melilotus albus"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Carex praegracilis",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            160,
+                            100,
+                            45,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Carex praegracilis"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Distichlis spicata",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            160,
+                            93,
+                            49,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Distichlis spicata"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Jaumea carnosa",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            160,
+                            87,
+                            53,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Jaumea carnosa"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Juncus lescurii",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            160,
+                            81,
+                            57,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Juncus lescurii"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Potentilla anserina",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            160,
+                            75,
+                            61,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Potentilla anserina"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Senecio blochmaniae",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            160,
+                            69,
+                            66,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Senecio blochmaniae"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Senecio blochmaniae - Achillea millefolium",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            160,
+                            63,
+                            70,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Senecio blochmaniae - Achillea millefolium"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Sarcocornia pacifica",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            160,
+                            57,
+                            74,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Sarcocornia pacifica"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Schoenoplectus americanus",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            160,
+                            51,
+                            78,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Schoenoplectus americanus"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Schoenoplectus californicus",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            160,
+                            45,
+                            83,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Schoenoplectus californicus"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Sparganium eurycarpum",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            160,
+                            39,
+                            87,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Sparganium eurycarpum"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Typha latifolia",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            160,
+                            33,
+                            91,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Typha latifolia"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Typha spp.",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            160,
+                            27,
+                            95,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Typha spp."
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Wetland",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            160,
+                            21,
+                            100,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Wetland"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Lacustrine",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            0,
+                            197,
+                            255,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Lacustrine"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Open Water",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            0,
+                            169,
+                            230,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Open Water"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Agriculture",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            215,
+                            215,
+                            158,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Agriculture"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Unknown",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            360,
+                            5,
+                            43,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Unknown"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Developed",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            0,
+                            3,
+                            63,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Developed"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Disturbed",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.40000000000000002,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            110,
+                            110,
+                            110,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMHSVColor",
+                          "values" : [
+                            0,
+                            2,
+                            83,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "Disturbed"
+                    ]
+                  }
+                ],
+                "visible" : true
+              }
+            ],
+            "heading" : "MapClass"
+          }
+        ],
+        "polygonSymbolColorTarget" : "Fill"
+      },
+      "scaleSymbols" : true,
+      "snappable" : true
+    }
+  ],
+  "binaryReferences" : [
+    {
+      "type" : "CIMBinaryReference",
+      "uRI" : "CIMPATH=Metadata/6e3c8ccfacfd813735b753f7d03d356c.xml",
+      "data" : "<metadata xml:lang=\"en\"><Esri><CreaDate>20210830</CreaDate><CreaTime>12362800</CreaTime><ArcGISFormat>1.0</ArcGISFormat><ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle><SyncOnce>FALSE</SyncOnce><DataProperties><lineage><Process ToolSource=\"C:\\Program Files (x86)\\XTools\\XTools Pro\\Toolbox\\XTools Pro.tbx\\XToolsGP_ModifyTable\" Date=\"20210826\" Time=\"113009\" Name=\"\" export=\"\">XToolsGP_ModifyTable PismoOceano_BIOS_ftp V:\\CaliforniaStateParksVegetation\\SVRA_Vegetation\\GIS\\Vegetation\\OceanoStateParks2015\\Oceano_BIOS_2021.gdb\\PismoOceano_BIOS_viewer C:\\Users\\THaynes\\AppData\\Local\\Temp\\arcF1AE\\tmp6645.xml # # # DO_NOT_COPY_DOMAINS DO_NOT_COPY_SUBTYPES DO_NOT_COPY_ATTACHMENTS</Process><Process ToolSource=\"c:\\program files (x86)\\arcgis\\desktop10.6\\ArcToolbox\\Toolboxes\\Conversion Tools.tbx\\FeatureClassToFeatureClass\" Date=\"20210827\" Time=\"120523\">FeatureClassToFeatureClass P:\\WorkArea\\ds2900-2999\\2944-Vegetation_PismoStateBeachAndOceanoDunesSVRA\\v1\\v1_work\\ds2944.gdb\\ds2944 P:\\WorkArea\\ds2900-2999\\2944-Vegetation_PismoStateBeachAndOceanoDunesSVRA\\v1\\v1_final\\ds2944.gdb ds2944 # \"MCVName \"MCVName\" true true false 254 Text 0 0 ,First,#,P:\\WorkArea\\ds2900-2999\\2944-Vegetation_PismoStateBeachAndOceanoDunesSVRA\\v1\\v1_work\\ds2944.gdb\\ds2944,MCVName,-1,-1;MCVLevel \"MCVLevel\" true true false 50 Text 0 0 ,First,#,P:\\WorkArea\\ds2900-2999\\2944-Vegetation_PismoStateBeachAndOceanoDunesSVRA\\v1\\v1_work\\ds2944.gdb\\ds2944,MCVLevel,-1,-1;MapCode \"MapCode\" true true false 4 Long 0 0 ,First,#,P:\\WorkArea\\ds2900-2999\\2944-Vegetation_PismoStateBeachAndOceanoDunesSVRA\\v1\\v1_work\\ds2944.gdb\\ds2944,MapCode,-1,-1;MapClass \"MapClass\" true true false 254 Text 0 0 ,First,#,P:\\WorkArea\\ds2900-2999\\2944-Vegetation_PismoStateBeachAndOceanoDunesSVRA\\v1\\v1_work\\ds2944.gdb\\ds2944,MapClass,-1,-1;CATEGORY \"CATEGORY\" true true false 50 Text 0 0 ,First,#,P:\\WorkArea\\ds2900-2999\\2944-Vegetation_PismoStateBeachAndOceanoDunesSVRA\\v1\\v1_work\\ds2944.gdb\\ds2944,CATEGORY,-1,-1;COMMENTS \"COMMENTS\" true true false 254 Text 0 0 ,First,#,P:\\WorkArea\\ds2900-2999\\2944-Vegetation_PismoStateBeachAndOceanoDunesSVRA\\v1\\v1_work\\ds2944.gdb\\ds2944,COMMENTS,-1,-1;Location \"Location\" true true false 50 Text 0 0 ,First,#,P:\\WorkArea\\ds2900-2999\\2944-Vegetation_PismoStateBeachAndOceanoDunesSVRA\\v1\\v1_work\\ds2944.gdb\\ds2944,Location,-1,-1;AREA_Acres \"AREA_Acres\" true true false 8 Double 0 0 ,First,#,P:\\WorkArea\\ds2900-2999\\2944-Vegetation_PismoStateBeachAndOceanoDunesSVRA\\v1\\v1_work\\ds2944.gdb\\ds2944,AREA_Acres,-1,-1;HABITAT \"HABITAT\" true true false 50 Text 0 0 ,First,#,P:\\WorkArea\\ds2900-2999\\2944-Vegetation_PismoStateBeachAndOceanoDunesSVRA\\v1\\v1_work\\ds2944.gdb\\ds2944,HABITAT,-1,-1;CalVegType \"CalVegType\" true true false 254 Text 0 0 ,First,#,P:\\WorkArea\\ds2900-2999\\2944-Vegetation_PismoStateBeachAndOceanoDunesSVRA\\v1\\v1_work\\ds2944.gdb\\ds2944,CalVegType,-1,-1;CalVegCode \"CalVegCode\" true true false 30 Text 0 0 ,First,#,P:\\WorkArea\\ds2900-2999\\2944-Vegetation_PismoStateBeachAndOceanoDunesSVRA\\v1\\v1_work\\ds2944.gdb\\ds2944,CalVegCode,-1,-1;CWHRType \"CWHRType\" true true false 254 Text 0 0 ,First,#,P:\\WorkArea\\ds2900-2999\\2944-Vegetation_PismoStateBeachAndOceanoDunesSVRA\\v1\\v1_work\\ds2944.gdb\\ds2944,CWHRType,-1,-1;CWHRCode \"CWHRCode\" true true false 30 Text 0 0 ,First,#,P:\\WorkArea\\ds2900-2999\\2944-Vegetation_PismoStateBeachAndOceanoDunesSVRA\\v1\\v1_work\\ds2944.gdb\\ds2944,CWHRCode,-1,-1;GlobalRank \"GlobalRank\" true true false 10 Text 0 0 ,First,#,P:\\WorkArea\\ds2900-2999\\2944-Vegetation_PismoStateBeachAndOceanoDunesSVRA\\v1\\v1_work\\ds2944.gdb\\ds2944,GlobalRank,-1,-1;StateRank \"StateRank\" true true false 10 Text 0 0 ,First,#,P:\\WorkArea\\ds2900-2999\\2944-Vegetation_PismoStateBeachAndOceanoDunesSVRA\\v1\\v1_work\\ds2944.gdb\\ds2944,StateRank,-1,-1;Sensitive \"Sensitive\" true true false 5 Text 0 0 ,First,#,P:\\WorkArea\\ds2900-2999\\2944-Vegetation_PismoStateBeachAndOceanoDunesSVRA\\v1\\v1_work\\ds2944.gdb\\ds2944,Sensitive,-1,-1;CaCode \"CaCode\" true true false 15 Text 0 0 ,First,#,P:\\WorkArea\\ds2900-2999\\2944-Vegetation_PismoStateBeachAndOceanoDunesSVRA\\v1\\v1_work\\ds2944.gdb\\ds2944,CaCode,-1,-1;MCVAlliance \"MCVAlliance\" true true false 254 Text 0 0 ,First,#,P:\\WorkArea\\ds2900-2999\\2944-Vegetation_PismoStateBeachAndOceanoDunesSVRA\\v1\\v1_work\\ds2944.gdb\\ds2944,MCVAlliance,-1,-1;MCVGroup \"MCVGroup\" true true false 254 Text 0 0 ,First,#,P:\\WorkArea\\ds2900-2999\\2944-Vegetation_PismoStateBeachAndOceanoDunesSVRA\\v1\\v1_work\\ds2944.gdb\\ds2944,MCVGroup,-1,-1;MCVMacrogroup \"MCVMacrogroup\" true true false 254 Text 0 0 ,First,#,P:\\WorkArea\\ds2900-2999\\2944-Vegetation_PismoStateBeachAndOceanoDunesSVRA\\v1\\v1_work\\ds2944.gdb\\ds2944,MCVMacrogroup,-1,-1;SHAPE_Length \"SHAPE_Length\" false true true 8 Double 0 0 ,First,#,P:\\WorkArea\\ds2900-2999\\2944-Vegetation_PismoStateBeachAndOceanoDunesSVRA\\v1\\v1_work\\ds2944.gdb\\ds2944,SHAPE_Length,-1,-1;SHAPE_Area \"SHAPE_Area\" false true true 8 Double 0 0 ,First,#,P:\\WorkArea\\ds2900-2999\\2944-Vegetation_PismoStateBeachAndOceanoDunesSVRA\\v1\\v1_work\\ds2944.gdb\\ds2944,SHAPE_Area,-1,-1\" #</Process><Process ToolSource=\"c:\\program files (x86)\\arcgis\\desktop10.6\\ArcToolbox\\Toolboxes\\Data Management Tools.tbx\\Project\" Date=\"20210830\" Time=\"123632\">Project P:\\WorkArea\\ds2900-2999\\2944-Vegetation_PismoStateBeachAndOceanoDunesSVRA\\v1\\v1_final\\ds2944.gdb\\ds2944 P:\\WorkArea\\ds2900-2999\\2944-Vegetation_PismoStateBeachAndOceanoDunesSVRA\\v1\\v1_final\\ds2944.gdb\\ds2944_pro PROJCS['NAD_1983_California_Teale_Albers',GEOGCS['GCS_North_American_1983',DATUM['D_North_American_1983',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Albers'],PARAMETER['False_Easting',0.0],PARAMETER['False_Northing',-4000000.0],PARAMETER['Central_Meridian',-120.0],PARAMETER['Standard_Parallel_1',34.0],PARAMETER['Standard_Parallel_2',40.5],PARAMETER['Latitude_Of_Origin',0.0],UNIT['Meter',1.0]] # PROJCS['NAD_1983_StatePlane_California_V_FIPS_0405_Feet',GEOGCS['GCS_North_American_1983',DATUM['D_North_American_1983',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Lambert_Conformal_Conic'],PARAMETER['False_Easting',6561666.666666666],PARAMETER['False_Northing',1640416.666666667],PARAMETER['Central_Meridian',-118.0],PARAMETER['Standard_Parallel_1',34.03333333333333],PARAMETER['Standard_Parallel_2',35.46666666666667],PARAMETER['Latitude_Of_Origin',33.5],UNIT['Foot_US',0.3048006096012192]] NO_PRESERVE_SHAPE # NO_VERTICAL</Process></lineage><itemProps><itemName Sync=\"TRUE\">ds2944</itemName><nativeExtBox><westBL Sync=\"TRUE\">5771063.474488</westBL><eastBL Sync=\"TRUE\">5785455.076938</eastBL><southBL Sync=\"TRUE\">2199583.012526</southBL><northBL Sync=\"TRUE\">2248518.125286</northBL><exTypeCode Sync=\"TRUE\">1</exTypeCode></nativeExtBox><itemLocation><linkage Sync=\"TRUE\">file://\\\\geodata.ad.dfg.ca.gov\\BIOS\\WorkArea\\ds2900-2999\\2944-Vegetation_PismoStateBeachAndOceanoDunesSVRA\\v1\\v1_final\\ds2944.gdb</linkage><protocol Sync=\"TRUE\">Local Area Network</protocol></itemLocation><imsContentType Sync=\"TRUE\" export=\"False\">002</imsContentType></itemProps><coordRef><type Sync=\"TRUE\">Projected</type><geogcsn Sync=\"TRUE\">GCS_North_American_1983</geogcsn><csUnits Sync=\"TRUE\">Linear Unit: Foot_US (0.304801)</csUnits><projcsn Sync=\"TRUE\">NAD_1983_StatePlane_California_V_FIPS_0405_Feet</projcsn><peXml Sync=\"TRUE\">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.6'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_StatePlane_California_V_FIPS_0405_Feet&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Lambert_Conformal_Conic&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,6561666.666666666],PARAMETER[&amp;quot;False_Northing&amp;quot;,1640416.666666667],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-118.0],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,34.03333333333333],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,35.46666666666667],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,33.5],UNIT[&amp;quot;Foot_US&amp;quot;,0.3048006096012192],AUTHORITY[&amp;quot;EPSG&amp;quot;,2229]]&lt;/WKT&gt;&lt;XOrigin&gt;-117608900&lt;/XOrigin&gt;&lt;YOrigin&gt;-91881400&lt;/YOrigin&gt;&lt;XYScale&gt;36269466.692146368&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.0032808333333333331&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;102645&lt;/WKID&gt;&lt;LatestWKID&gt;2229&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef></DataProperties><SyncDate>20210830</SyncDate><SyncTime>10255800</SyncTime><ModDate>20210830</ModDate><ModTime>10255800</ModTime><scaleRange><minScale>150000000</minScale><maxScale>5000</maxScale></scaleRange><ArcGISProfile>FGDC</ArcGISProfile></Esri><mdContact xmlns=\"\"><rpIndName>Torrance Haynes</rpIndName><rpOrgName>CDFW VegCAMP</rpOrgName><role><RoleCd value=\"009\"/></role><rpCntInfo xmlns=\"\"><cntAddress addressType=\"\"><eMailAdd>torrance.haynes@wildlife.ca.gov</eMailAdd></cntAddress></rpCntInfo></mdContact><dataIdInfo><idCitation xmlns=\"\"><resTitle Sync=\"FALSE\">Vegetation - Pismo State Beach and Oceano Dunes SVRA [ds2944]</resTitle><presForm xmlns=\"\"><PresFormCd value=\"005\" Sync=\"TRUE\"/></presForm><date><pubDate>2021-08-27T00:00:00</pubDate></date><citRespParty xmlns=\"\"><rpIndName>Vegetation Classification and Mapping Program</rpIndName><rpOrgName>California Department of Fish and Wildlife</rpOrgName><role><RoleCd value=\"007\"/></role><rpCntInfo xmlns=\"\"><cntAddress addressType=\"\"><eMailAdd>VegCAMP@wildlife.ca.gov</eMailAdd></cntAddress></rpCntInfo><displayName>Vegetation Classification and Mapping Program</displayName></citRespParty><citRespParty xmlns=\"\"><rpIndName>MIG|TRA Environmental Sciences, Inc.</rpIndName><role><RoleCd value=\"006\"/></role><rpCntInfo><cntAddress addressType=\"\"><eMailAdd>info@migcom.com</eMailAdd></cntAddress><cntPhone><voiceNum tddtty=\"\">5108457549</voiceNum></cntPhone></rpCntInfo><displayName>MIG|TRA Environmental Sciences, Inc.</displayName></citRespParty><citRespParty xmlns=\"\"><rpIndName>Torrance Haynes</rpIndName><rpOrgName>CDFW VegCAMP</rpOrgName><role><RoleCd value=\"009\"/></role><rpCntInfo><cntAddress addressType=\"\"><eMailAdd>torrance.haynes@wildlife.ca.gov</eMailAdd></cntAddress></rpCntInfo><displayName>Torrance Haynes</displayName></citRespParty></idCitation><idPurp>The purpose of this map is to characterize the vegetation in the study area, which includes Pismo State Beach (SB) and Oceano Dunes State Vehicle Recreation Area (SVRA) in coastal San Luis Obispo County, California. This map and the attached report are intended for several applications, including the following:\r\n\r\n1) To inform the habitat monitoring program conducted by California Department of Parks and Recreation (CDPR), Off-highway Motor Vehicle Recreation (OHMVR) Division, and Oceano Dunes District (District);\r\n2) To provide background information for the proposed Oceano Dunes SVRA Habitat Conservation Plan (HCP) and the Environmental Impact Statement/Environmental Impact Report (EIR) for the HCP;\r\n3) To provide information for the biological resources chapter of the EIR for the Oceano Dunes SVRA Dust Control Project; and\r\n4) To inform implementation of the Particulate Matter Reduction Plan.</idPurp><idAbs>&lt;DIV STYLE=\"text-align:Left;\"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;&lt;SPAN&gt;Vegetation types in the study area are classified as vegetation alliances defined by their dominant or co-dominant species, following the classification system in &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN STYLE=\"font-style:italic;\"&gt;&lt;SPAN&gt;A Manual of California Vegetation, Second Edition &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN&gt;(MCV2) (Sawyer et al. 2009). However, coastal dune vegetation types are under-represented in the MCV2 because these areas have not been well studied (Keeler-Wolf, pers. comm., to S. Little June, 2012). Therefore, portions of the study area also contain dominant plants that do not have an MCV2 corresponding alliance. As a result, District staff and their consultants created unique alliances to describe the alliances not classified by MCV2, and these are referred to as District alliances in this report. &lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Vegetation mapping was conducted during the week of September 10 through 14, 2012 by a team of seven individuals representing biologists from the District, TRA Environmental Sciences, Inc. (TRA), and independent consultants. District biologists independently continued vegetation mapping in subsequent weeks and completed the effort in December 2012.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Mapping was conducted by teams of two biologists. Vegetation was mapped in the following areas: vegetation islands, Maidenform, Oso Flaco Lake and Creek, portions of the Phillips 66 leasehold, and North and South Oso Flaco. Aerial base maps, acquired from the National Oceanic and Atmospheric Administration (NOAA) Coastal Services Center (2011), were used for vegetation mapping. A checklist of common plant species in the study area, developed by District biologists, was also used to aid in documenting plants observed in the study area. The mapping methodology used was consistent with Sawyer et al. (2009). Each mapping unit was mapped as one vegetation alliance only (i.e., different vegetation layers were never mapped separately as different alliances in the same mapping unit). In areas dominated by shrubland species where dominant species of two or more shrubland alliances were present in the same mapping unit, the unit was mapped as the shrubland alliance corresponding with the dominant shrub species. Likewise, in areas dominated by herbaceous species where dominant species of two or more herbaceous alliances were present in the same unit, the unit was mapped as the herbaceous alliance corresponding to the most dominant herbaceous species. In addition, the following methods were used in those locations where dominant species from both shrubland and herbaceous alliances were present in the same mapping unit:&lt;/SPAN&gt;&lt;/P&gt;&lt;UL STYLE=\"margin:0 0 0 0;padding:0 0 0 0;\"&gt;&lt;LI&gt;&lt;P&gt;&lt;SPAN&gt;&lt;SPAN&gt;In areas of higher than 20 percent total vegetative cover, the unit was mapped as the shrubland alliance if shrubs had at least 10 percent cover, even if total cover of herbs was higher than that of shrubs. If shrubs covered less than 10 percent and herbaceous vegetation was dominant, the unit was mapped as the herbaceous alliance. &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/LI&gt;&lt;LI&gt;&lt;P&gt;&lt;SPAN&gt;In areas of less than 20 percent total vegetative cover, the unit was mapped as the shrubland alliance even if shrubs were less than 10 percent cover if shrubs were evenly distributed across the area. If shrubs were less than 2-5 percent cover and unevenly distributed, the unit was mapped as the herbaceous alliance.&lt;/SPAN&gt;&lt;/P&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;P&gt;&lt;SPAN&gt;Vegetation alliance boundaries were sketched onto 11 x 17-inch base maps. All distinctive vegetation types were mapped in the field regardless of size. Plant species observed in each area mapped were checked off on the checklist of common plant species or added to the list, if necessary. Observations likely did not include every plant species present in the study area (e.g., fall annuals that were not present when mapping took place would not have been detected). During vegetation mapping one team member sketched the vegetation alliances while the other completed the species checklist. All species detected are listed in Appendix A.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Once on-site work was completed, field maps were georeferenced and digitized using ArcGIS 10.1. Vegetation alliance outlines were digitized to produce vector data representing hand-drawn polygons. Desktop mapping was performed at different scales appropriate to the variable scales of each field map. This process was started by CDPR staff and completed by TRA. Quality assurance and quality control were provided by CDPR biologists.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs><idCredit>This map was created by MIG|TRA Environmental Sciences, Inc. and California State Parks\r\n\r\nIt was prepared for publication in BIOS by California Department of Fish and Wildlife's Vegetation Classification and Mapping Program.</idCredit><searchKeys><keyword>vegetation</keyword><keyword>California</keyword><keyword>biota</keyword><keyword>environment</keyword><keyword>National Vegetation Classification Standard</keyword><keyword>A Manual of California Vegetation</keyword><keyword>California Wildlife Habitat Relationships</keyword><keyword>Pismo State Beach</keyword><keyword>Oceano Dunes SVRA</keyword></searchKeys><resConst><Consts><useLimit>&lt;DIV STYLE=\"text-align:Left;\"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN STYLE=\"font-weight:bold;\"&gt;License: &lt;/SPAN&gt;&lt;SPAN&gt;This work is licensed under Creative Commons Attribution 4.0 International License (&lt;/SPAN&gt;&lt;A href=\"https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby%2F4.0%2F&amp;amp;data=04%7C01%7CRosalie.Yacoub%40wildlife.ca.gov%7C8691821c22624ba7228708d8fa154ca0%7C4b633c25efbf40069f1507442ba7aa0b%7C0%7C0%7C637534316671189789%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;amp;sdata=ATsh6erlVJlREB6FG4rmLTbmN47RhLK9h1kstPyesKY%3D&amp;amp;reserved=0\"&gt;&lt;SPAN&gt;&lt;SPAN&gt;https://creativecommons.org/licenses/by/4.0/&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/A&gt;&lt;SPAN&gt;). Using the citation standards recommended for BIOS datasets (&lt;/SPAN&gt;&lt;A href=\"https://www.wildlife.ca.gov/Data/BIOS/Citing-BIOS\"&gt;&lt;SPAN&gt;&lt;SPAN&gt;https://www.wildlife.ca.gov/Data/BIOS/Citing-BIOS&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/A&gt;&lt;SPAN&gt;&lt;SPAN&gt;) satisfies the attribution requirements of this license.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN STYLE=\"font-weight:bold;\"&gt;Disclaimer: &lt;/SPAN&gt;&lt;SPAN&gt;The State makes no claims, promises, or guarantees about the accuracy, completeness, reliability, or adequacy of these data and expressly disclaims liability for errors and omissions in these data. No warranty of any kind, implied, expressed, or statutory, including but not limited to the warranties of non-infringement of third party rights, title, merchantability, fitness for a particular purpose, and freedom from computer virus, is given with respect to these data.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;CDFWs VegCAMP appreciates learning how these vegetation datasets are being used so that we can leverage support for classifying and mapping new areas and let users know of any updates. Please contact us at &lt;/SPAN&gt;&lt;A href=\"mailto:VegCAMP@wildlife.ca.gov\"&gt;&lt;SPAN&gt;&lt;SPAN&gt;VegCAMP@wildlife.ca.gov&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/A&gt;&lt;SPAN&gt;&lt;SPAN&gt;or call any of the staff listed here: &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;A href=\"https://wildlife.ca.gov/Data/VegCAMP\"&gt;&lt;SPAN&gt;&lt;SPAN&gt;https://wildlife.ca.gov/Data/VegCAMP&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/A&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit></Consts></resConst><idPoC xmlns=\"\"><rpIndName>MIG|TRA Environmental Sciences, Inc.</rpIndName><role><RoleCd value=\"006\"/></role><rpCntInfo xmlns=\"\"><cntAddress addressType=\"\"><eMailAdd>info@migcom.com</eMailAdd></cntAddress><cntPhone><voiceNum tddtty=\"\">5108457549</voiceNum></cntPhone></rpCntInfo></idPoC><envirDesc Sync=\"TRUE\"> Version 6.2 (Build 9200) ; Esri ArcGIS 10.6.1.9270</envirDesc><dataLang><languageCode value=\"eng\" Sync=\"TRUE\"/><countryCode value=\"USA\" Sync=\"TRUE\"/></dataLang><spatRpType><SpatRepTypCd value=\"001\" Sync=\"TRUE\"/></spatRpType><dataExt><vertEle><vertMinVal Sync=\"TRUE\">0.000000</vertMinVal><vertMaxVal Sync=\"TRUE\">0.000000</vertMaxVal></vertEle></dataExt><dataExt><geoEle xmlns=\"\"><GeoBndBox esriExtentType=\"search\"><exTypeCode Sync=\"TRUE\">1</exTypeCode><westBL Sync=\"TRUE\">-120.644769</westBL><eastBL Sync=\"TRUE\">-120.592426</eastBL><northBL Sync=\"TRUE\">35.143374</northBL><southBL Sync=\"TRUE\">35.007937</southBL></GeoBndBox></geoEle></dataExt><idPoC xmlns=\"\"><rpIndName>Vegetation Classification and Mapping Program</rpIndName><rpOrgName>California Department of Fish and Wildlife</rpOrgName><role><RoleCd value=\"010\"/></role><rpCntInfo xmlns=\"\"><cntAddress addressType=\"\"><eMailAdd>VegCAMP@wildlife.ca.gov</eMailAdd></cntAddress></rpCntInfo></idPoC><themeKeys xmlns=\"\"><keyword>vegetation, California, biota, environment, National Vegetation Classification Standard, A Manual of California Vegetation, California Wildlife Habitat Relationships, Pismo State Beach, Oceano Dunes SVRA</keyword></themeKeys><placeKeys xmlns=\"\"><keyword>California</keyword></placeKeys><dataChar><CharSetCd value=\"004\"/></dataChar><idStatus><ProgCd value=\"001\"/></idStatus><resMaint xmlns=\"\"><maintFreq><MaintFreqCd value=\"012\"/></maintFreq></resMaint><tpCat><TopicCatCd value=\"002\"/></tpCat><tpCat><TopicCatCd value=\"007\"/></tpCat></dataIdInfo><eainfo><detailed Name=\"ds2944\"><enttyp><enttypl Sync=\"TRUE\">ds2944</enttypl><enttypt Sync=\"TRUE\">Feature Class</enttypt><enttypc Sync=\"TRUE\">1935</enttypc></enttyp><attr><attrlabl Sync=\"TRUE\">OBJECTID</attrlabl><attalias Sync=\"TRUE\">OBJECTID</attalias><attrtype Sync=\"TRUE\">OID</attrtype><attwidth Sync=\"TRUE\">4</attwidth><atprecis Sync=\"TRUE\">0</atprecis><attscale Sync=\"TRUE\">0</attscale><attrdef Sync=\"TRUE\">Internal feature number.</attrdef><attrdefs Sync=\"TRUE\">Esri</attrdefs><attrdomv><udom Sync=\"TRUE\">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync=\"TRUE\">SHAPE</attrlabl><attalias Sync=\"TRUE\">Shape</attalias><attrtype Sync=\"TRUE\">Geometry</attrtype><attwidth Sync=\"TRUE\">0</attwidth><atprecis Sync=\"TRUE\">0</atprecis><attscale Sync=\"TRUE\">0</attscale><attrdef Sync=\"TRUE\">Feature geometry.</attrdef><attrdefs Sync=\"TRUE\">Esri</attrdefs><attrdomv><udom Sync=\"TRUE\">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync=\"TRUE\">MCVName</attrlabl><attalias Sync=\"TRUE\">MCVName</attalias><attrtype Sync=\"TRUE\">String</attrtype><attwidth Sync=\"TRUE\">254</attwidth><atprecis Sync=\"TRUE\">0</atprecis><attscale Sync=\"TRUE\">0</attscale><attrdef>The name of the vegetation type as described in the Manual of California Vegetation and California Natural Community List (https://wildlife.ca.gov/Data/VegCAMP/Natural-Communities). These standardized names correspond as much as possible to the National Vegetation Classification System (see http://usnvc.org/ for more information) or are submitted to the regional editors for induction. Classes for human land use or otherwise unvegetated land were drawn from the California Wildlife Habitat Relationship.\r\n</attrdef><attrdefs>MCV Online: https://vegetation.cnps.org/</attrdefs></attr><attr><attrlabl Sync=\"TRUE\">MCVLevel</attrlabl><attalias Sync=\"TRUE\">MCVLevel</attalias><attrtype Sync=\"TRUE\">String</attrtype><attwidth Sync=\"TRUE\">50</attwidth><atprecis Sync=\"TRUE\">0</atprecis><attscale Sync=\"TRUE\">0</attscale><attrdef>The standardized classification level of the vegetation as described in the Manual of California Vegetation, corresponding with levels of the National Vegetation Classification System.</attrdef><attrdefs>MCV Online: https://vegetation.cnps.org/</attrdefs></attr><attr><attrlabl Sync=\"TRUE\">MapCode</attrlabl><attalias Sync=\"TRUE\">MapCode</attalias><attrtype Sync=\"TRUE\">Integer</attrtype><attwidth Sync=\"TRUE\">4</attwidth><atprecis Sync=\"TRUE\">0</atprecis><attscale Sync=\"TRUE\">0</attscale><attrdef>The code for a vegetation association, alliance, group, unvegetated type, or land use for polygons that are not natural vegetation.</attrdef><attrdefs>https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=102342&amp;inline</attrdefs></attr><attr><attrlabl Sync=\"TRUE\">MapClass</attrlabl><attalias Sync=\"TRUE\">MapClass</attalias><attrtype Sync=\"TRUE\">String</attrtype><attwidth Sync=\"TRUE\">254</attwidth><atprecis Sync=\"TRUE\">0</atprecis><attscale Sync=\"TRUE\">0</attscale><attrdef>The finest level of vegetation type mapped (alliance, association, group or macrogroup); or descriptions for polygons that are not natural vegetation per the mapping classification, including land use and natural barrens or water features. Map classes are described in the mapping report.</attrdef><attrdefs>https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=102342&amp;inline</attrdefs></attr><attr><attrlabl Sync=\"TRUE\">CATEGORY</attrlabl><attalias Sync=\"TRUE\">CATEGORY</attalias><attrtype Sync=\"TRUE\">String</attrtype><attwidth Sync=\"TRUE\">50</attwidth><atprecis Sync=\"TRUE\">0</atprecis><attscale Sync=\"TRUE\">0</attscale><attrdef>The vegetation layer of the type as determined by MIG|TRA Environmental Sciences.</attrdef><attrdefs> https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=186707 </attrdefs></attr><attr><attrlabl Sync=\"TRUE\">COMMENTS</attrlabl><attalias Sync=\"TRUE\">COMMENTS</attalias><attrtype Sync=\"TRUE\">String</attrtype><attwidth Sync=\"TRUE\">254</attwidth><atprecis Sync=\"TRUE\">0</atprecis><attscale Sync=\"TRUE\">0</attscale><attrdef>Comments from the mappers</attrdef><attrdefs> https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=186707 </attrdefs></attr><attr><attrlabl Sync=\"TRUE\">Location</attrlabl><attalias Sync=\"TRUE\">Location</attalias><attrtype Sync=\"TRUE\">String</attrtype><attwidth Sync=\"TRUE\">50</attwidth><atprecis Sync=\"TRUE\">0</atprecis><attscale Sync=\"TRUE\">0</attscale><attrdef>Location of the stand within the mapping area</attrdef><attrdefs> https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=186707 </attrdefs></attr><attr><attrlabl Sync=\"TRUE\">AREA_Acres</attrlabl><attalias Sync=\"TRUE\">AREA_Acres</attalias><attrtype Sync=\"TRUE\">Double</attrtype><attwidth Sync=\"TRUE\">8</attwidth><atprecis Sync=\"TRUE\">0</atprecis><attscale Sync=\"TRUE\">0</attscale><attrdef>Area of a polygon in acres</attrdef><attrdefs>esri</attrdefs></attr><attr><attrlabl Sync=\"TRUE\">HABITAT</attrlabl><attalias Sync=\"TRUE\">HABITAT</attalias><attrtype Sync=\"TRUE\">String</attrtype><attwidth Sync=\"TRUE\">50</attwidth><atprecis Sync=\"TRUE\">0</atprecis><attscale Sync=\"TRUE\">0</attscale><attrdef>Habitat type of a stand of vegetation</attrdef><attrdefs> https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=186707 </attrdefs></attr><attr><attrlabl Sync=\"TRUE\">CalVegType</attrlabl><attalias Sync=\"TRUE\">CalVegType</attalias><attrtype Sync=\"TRUE\">String</attrtype><attwidth Sync=\"TRUE\">254</attwidth><atprecis Sync=\"TRUE\">0</atprecis><attscale Sync=\"TRUE\">0</attscale><attrdef>A crosswalk to the Classification and Assessment with Landsat of Visible Ecological Groupings (CalVeg) vegetation system (USDA Forest Service). Note that there may be a one-to-many relationship between CalVeg and MCV, but the best crosswalk for this area is chosen.\r\n\r\n\r\n</attrdef><attrdefs>https://www.fs.usda.gov/detail/r5/landmanagement/resourcemanagement/?cid=stelprdb5347192</attrdefs></attr><attr><attrlabl Sync=\"TRUE\">CalVegCode</attrlabl><attalias Sync=\"TRUE\">CalVegCode</attalias><attrtype Sync=\"TRUE\">String</attrtype><attwidth Sync=\"TRUE\">30</attwidth><atprecis Sync=\"TRUE\">0</atprecis><attscale Sync=\"TRUE\">0</attscale><attrdef>The code used for the CalVeg type.</attrdef><attrdefs>https://www.fs.usda.gov/detail/r5/landmanagement/resourcemanagement/?cid=stelprdb5347192</attrdefs></attr><attr><attrlabl Sync=\"TRUE\">CWHRType</attrlabl><attalias Sync=\"TRUE\">CWHRType</attalias><attrtype Sync=\"TRUE\">String</attrtype><attwidth Sync=\"TRUE\">254</attwidth><atprecis Sync=\"TRUE\">0</atprecis><attscale Sync=\"TRUE\">0</attscale><attrdef>A crosswalk to the California Wildlife Habitat Relationships system. Note that there is usually a one-to-many relationship between CWHR and NVCS, but the best fit for this area has been chosen.</attrdef><attrdefs>https://wildlife.ca.gov/Data/CWHR/Wildlife-Habitats</attrdefs></attr><attr><attrlabl Sync=\"TRUE\">CWHRCode</attrlabl><attalias Sync=\"TRUE\">CWHRCode</attalias><attrtype Sync=\"TRUE\">String</attrtype><attwidth Sync=\"TRUE\">30</attwidth><atprecis Sync=\"TRUE\">0</atprecis><attscale Sync=\"TRUE\">0</attscale><attrdef>A crosswalk to the California Wildlife Habitat Relationships system. Note that there is usually a one-to-many relationship between CWHR and NVCS, but the best fit for this area has been chosen.</attrdef><attrdefs>https://wildlife.ca.gov/Data/CWHR/Wildlife-Habitats</attrdefs></attr><attr><attrlabl Sync=\"TRUE\">GlobalRank</attrlabl><attalias Sync=\"TRUE\">GlobalRank</attalias><attrtype Sync=\"TRUE\">String</attrtype><attwidth Sync=\"TRUE\">10</attwidth><atprecis Sync=\"TRUE\">0</atprecis><attscale Sync=\"TRUE\">0</attscale><attrdef>The global rarity ranking of the plant community mapped (ranks are available for all California alliances, and some associations). Ranks are based on a set of criteria including the rarity of the community (extent and occupancy), the threats that the community is subject to, and any known trends in the quality, size, or quantity of stands within the state. Ranks go from G1 which is critically imperiled/has very few occurrences to G5, when a community is demonstrably secure due to broad distribution with area not subject to threats. Ranks G1-G3 are considered sensitive. See: http://www.natureserve.org/sites/default/files/publications/files/natureserveconservationstatusmethodology_jun12_0.pdf and https://wildlife.ca.gov/Data/VegCAMP/Natural-Communities Ranks are current as of the publication date or update date.</attrdef><attrdefs>http://www.natureserve.org/sites/default/files/publications/files/natureserveconservationstatusmethodology_jun12_0.pdf and https://wildlife.ca.gov/Data/VegCAMP/Natural-Communities</attrdefs></attr><attr><attrlabl Sync=\"TRUE\">StateRank</attrlabl><attalias Sync=\"TRUE\">StateRank</attalias><attrtype Sync=\"TRUE\">String</attrtype><attwidth Sync=\"TRUE\">10</attwidth><atprecis Sync=\"TRUE\">0</atprecis><attscale Sync=\"TRUE\">0</attscale><attrdef>The state rarity ranking of the plant community mapped (ranks are available for all California alliances, and some associations). Ranks are based on a set of criteria including the rarity of the community (extent and occupancy), the threats that the community is subject to, and any known trends in the quality, size, or quantity of stands within the state. Ranks go from S1 which is critically imperiled/has very few occurrences to S5, when a community is demonstrably secure due to security globally. Ranks S1-S3 are considered sensitive. See: http://www.natureserve.org/sites/default/files/publications/files/natureserveconservationstatusmethodology_jun12_0.pdf and https://wildlife.ca.gov/Data/VegCAMP/Natural-Communities Ranks are current as of the publication date or update date.</attrdef><attrdefs>http://www.natureserve.org/sites/default/files/publications/files/natureserveconservationstatusmethodology_jun12_0.pdf and https://wildlife.ca.gov/Data/VegCAMP/Natural-Communities</attrdefs></attr><attr><attrlabl Sync=\"TRUE\">Sensitive</attrlabl><attalias Sync=\"TRUE\">Sensitive</attalias><attrtype Sync=\"TRUE\">String</attrtype><attwidth Sync=\"TRUE\">5</attwidth><atprecis Sync=\"TRUE\">0</atprecis><attscale Sync=\"TRUE\">0</attscale><attrdef>A binary Yes/No attribute indicating the sensitivity of a vegetation type. Alliances and associations with global ranks of G1-G3 state ranks of S1-S3 are considered sensitive natural communities. Additionally if an association has not gone through the ranking process, but is estimated to be sensitive, Y will be shown without a G or S rank. Ranks are current as of the publication date or update date.</attrdef><attrdefs>https://www.wildlife.ca.gov/Data/VegCAMP/Natural-Communities/Background</attrdefs></attr><attr><attrlabl Sync=\"TRUE\">CaCode</attrlabl><attalias Sync=\"TRUE\">CaCode</attalias><attrtype Sync=\"TRUE\">String</attrtype><attwidth Sync=\"TRUE\">15</attwidth><atprecis Sync=\"TRUE\">0</atprecis><attscale Sync=\"TRUE\">0</attscale><attrdef>California Natural Community Codes - unique code assigned to alliances and associations.</attrdef><attrdefs>https://www.wildlife.ca.gov/Data/VegCAMP/Natural-Communities</attrdefs></attr><attr><attrlabl Sync=\"TRUE\">MCVAlliance</attrlabl><attalias Sync=\"TRUE\">MCVAlliance</attalias><attrtype Sync=\"TRUE\">String</attrtype><attwidth Sync=\"TRUE\">254</attwidth><atprecis Sync=\"TRUE\">0</atprecis><attscale Sync=\"TRUE\">0</attscale><attrdef>The standardized name for the alliance within the National Vegetation Classification System interpreted in the Manual of California Vegetation.</attrdef><attrdefs>https://vegetation.cnps.org/</attrdefs></attr><attr><attrlabl Sync=\"TRUE\">MCVGroup</attrlabl><attalias Sync=\"TRUE\">MCVGroup</attalias><attrtype Sync=\"TRUE\">String</attrtype><attwidth Sync=\"TRUE\">254</attwidth><atprecis Sync=\"TRUE\">0</atprecis><attscale Sync=\"TRUE\">0</attscale><attrdef>The standardized name for the group within the National Vegetation Classification System interpreted in the Manual of California Vegetation.</attrdef><attrdefs>https://vegetation.cnps.org/</attrdefs></attr><attr><attrlabl Sync=\"TRUE\">MCVMacrogroup</attrlabl><attalias Sync=\"TRUE\">MCVMacrogroup</attalias><attrtype Sync=\"TRUE\">String</attrtype><attwidth Sync=\"TRUE\">254</attwidth><atprecis Sync=\"TRUE\">0</atprecis><attscale Sync=\"TRUE\">0</attscale><attrdef>The standardized name for the macrogroup within the National Vegetation Classification System as interpreted in the Manual of California Vegetation.</attrdef><attrdefs>https://vegetation.cnps.org/</attrdefs></attr><attr><attrlabl Sync=\"TRUE\">SHAPE_Length</attrlabl><attalias Sync=\"TRUE\">Shape_Length</attalias><attrtype Sync=\"TRUE\">Double</attrtype><attwidth Sync=\"TRUE\">8</attwidth><atprecis Sync=\"TRUE\">0</atprecis><attscale Sync=\"TRUE\">0</attscale><attrdef Sync=\"TRUE\">Length of feature in internal units.</attrdef><attrdefs Sync=\"TRUE\">Esri</attrdefs><attrdomv><udom Sync=\"TRUE\">Positive real numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync=\"TRUE\">SHAPE_Area</attrlabl><attalias Sync=\"TRUE\">Shape_Area</attalias><attrtype Sync=\"TRUE\">Double</attrtype><attwidth Sync=\"TRUE\">8</attwidth><atprecis Sync=\"TRUE\">0</atprecis><attscale Sync=\"TRUE\">0</attscale><attrdef Sync=\"TRUE\">Area of feature in internal units squared.</attrdef><attrdefs Sync=\"TRUE\">Esri</attrdefs><attrdomv><udom Sync=\"TRUE\">Positive real numbers that are automatically generated.</udom></attrdomv></attr></detailed></eainfo><mdLang><languageCode value=\"eng\" Sync=\"TRUE\"/><countryCode value=\"USA\" Sync=\"TRUE\"/></mdLang><distInfo xmlns=\"\"><distFormat xmlns=\"\"><formatName Sync=\"TRUE\">File Geodatabase Feature Class</formatName></distFormat><distTranOps xmlns=\"\"><onLineSrc xmlns=\"\"><linkage>https://www.wildlife.ca.gov/Data/BIOS</linkage><orFunct><OnFunctCd value=\"002\"/></orFunct></onLineSrc><onLineSrc xmlns=\"\"><linkage>https://filelib.wildlife.ca.gov/Public/BDB/GIS/BIOS/Public_Datasets/2900_2999/ds2944.zip</linkage><orFunct><OnFunctCd value=\"001\"/></orFunct></onLineSrc></distTranOps></distInfo><mdHrLv><ScopeCd value=\"005\" Sync=\"TRUE\"/></mdHrLv><mdHrLvName Sync=\"TRUE\">dataset</mdHrLvName><refSysInfo><RefSystem><refSysID><identCode code=\"2229\" Sync=\"TRUE\"/><idCodeSpace Sync=\"TRUE\">EPSG</idCodeSpace><idVersion Sync=\"TRUE\">5.3(9.0.0)</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><geometObjs Name=\"ds2944\"><geoObjTyp><GeoObjTypCd value=\"002\" Sync=\"TRUE\"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync=\"TRUE\">1935</geoObjCnt></geometObjs><topLvl><TopoLevCd value=\"001\" Sync=\"TRUE\"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo><spdoinfo><ptvctinf><esriterm Name=\"ds2944\"><efeatyp Sync=\"TRUE\">Simple</efeatyp><efeageom code=\"4\" Sync=\"TRUE\"></efeageom><esritopo Sync=\"TRUE\">FALSE</esritopo><efeacnt Sync=\"TRUE\">1935</efeacnt><spindex Sync=\"TRUE\">TRUE</spindex><linrefer Sync=\"TRUE\">TRUE</linrefer></esriterm></ptvctinf></spdoinfo><mdDateSt Sync=\"TRUE\">20210830</mdDateSt><Binary><Thumbnail><Data EsriPropertyType=\"PictureX\">/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a\r\nHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy\r\nMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCACFAMgDASIA\r\nAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA\r\nAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3\r\nODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm\r\np6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA\r\nAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx\r\nBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK\r\nU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3\r\nuLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iii\r\ngAooooAKKKKACiiigAooooAasis7oD8yHDD8M06s++mNjcQ3e12idhFPjJCrztbGcDB6n0PtV5HW\r\nRdyMCKAHUUgYEkAgkHB9qWgAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo\r\nAKKKKAIrmFbm1mgcArIjIQe4IxWL4WZXtpnNw8sjEblbGU25TBGM5+XnPtW/XGWxfS/G9wuSYriQ\r\n5HHAfYQeuR87Y/yaiW6YHZ0UUVYBRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB\r\nRRRQAUUUUAFcR40t71bh57JZM+WjFY0ZixywY8HAwNvb05rt65rxRff2dc6fK0XmRSSbZATgYXkA\r\n8Hv/ACpSV1qB0ULM0MbMCGKgnIwc49KfVe0vI7tG25WRMCRCMFCQCM/gRVimAUUUUAFFFFABRRRQ\r\nAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABXM+MSq29lI5ASOdXJPQcjnPUde3r+B6a\r\nuZ8YaZc6pFZQ2quWZ3VmAyqgrn5vQZApMCa9mfRtSm1KRZmtpo1M0ce0hWHy5Oceqjg9jx3rbtri\r\nO7t454W3RuMgkYrjfFMt0um6VE1wsSPFuk8xRuZ0AYZ3YPUDjjk/hTdF1+TR7O0jvTC1pMTgIfnt\r\n8noRgZGSeBk456YFK6TA7mioba6t7yETW0ySxnoyHIqaqAKKKKACiiigAooooAKKKKACiiigAooo\r\noAKKKKACiiigAooooAKKKKACql/FeSwqbG5WGZWziRAyOPQ9x9RVugnAJoA5XWFS78H276hLxEym\r\naVFDcqSpPPPX05/CsmLzNUa2trV7SZ1GPK3+UfKXHBGA2Dn9TxXQeIb6SXwv9rsmK+a0ZVjgEKzA\r\nZ54HX9a4xZY5vs08aTLeRvwpwijHptC4wOcjPI7ZNc9RLnTY0enxQQwKVhiSME5IRQMn8KkqG0uP\r\ntVpFPsaPzFB2MRlfY4qaugQUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA\r\nFMlLCJygJYKcAYyT+NPrO1G4bT45bkxXM8LL+8Ebj92B3UceuSc9qAKS3VxaeGbIm2iNxNsiMMye\r\nWGZjg5AGAe+PrWDq01xDqDW9vA9sqSF/J3gRlQGO7AGMELnBHPPJ7a02qf2H4at7yxge7hmfcBI5\r\nBUOcgc5wB09uOtQ3mu6Tq2mtHdGSC4DeUY9pLxFhjdt4JHOOmefxqZRUlZgaXh5LeKGWOCcyHCsy\r\nMoUqDkg4B4B7D0Arark/CUwe5n+80jx7rh5ciQyBu6noMMMe30rrKVN+6DCiiirAKKKKACiiigAo\r\noooAKKKKACiiigAooooAKKKKACiiigAooooAK5VtcgtNL1Sf7WjSK/CDAbe3OAGznggdOdtdPNJ5\r\nMEkuM7FLYzjOBXmmjWkl0NSk0+eVPKmJlCxCTAOcFQTg8A8Yz6H1id90Mvatq5fwhbQ+dE080mVW\r\nyJXKryc4GAc84rnWiE1i12trIWMmROoIiPTIcEYHQHrjnp3rqtH8LW6PPcXlofLm+aCbeAQD04X7\r\np/lXR6DYNptpLbCYywLJ+6LDkDAGCe+MYrNVOafJYLGP4ajmhnhM9rbxO+4CSGPG8HJOWPXoCME9\r\nDntXW1AbO2Nwlx5KCZCSHAwckEc468E9anrSnDlVgYUUUVYgooooAKKKKACiiigAooooAKKKKACi\r\niigAooooAKKKKACiiigDP1tpl0a5NusjS7cKsalmPPYCvOYbufSxcXNqrx7YVEi+byFY/wAXJKsT\r\n9Mcc9c+rVVvNNstQjMd3axTL/trkj8e1RKN3cDB0XV5J4yn2gzIiAssiE4B9+vHfOTyD346O2ZGg\r\nXywABkEA5wQcH9a56bwfHDHINLvJrUSABkJ3AgdAD94dB3P61FHaanowX9y88Sjb5sJ3SgdgQR84\r\n+oyO3NZ+/CV3qh7nV0VW0+5kvLGKeWB4HcZMbjBH4dqs1uIKKKKACiiigAooooAKKKKACiiigAoo\r\nooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//9k=</Data></Thumbnail></Binary><mdChar><CharSetCd value=\"004\"/></mdChar><mdContact xmlns=\"\"><rpIndName>MIG|TRA Environmental Sciences, Inc.</rpIndName><role><RoleCd value=\"006\"/></role><rpCntInfo><cntAddress addressType=\"\"><eMailAdd>info@migcom.com</eMailAdd></cntAddress><cntPhone><voiceNum tddtty=\"\">5108457549</voiceNum></cntPhone></rpCntInfo><displayName>MIG|TRA Environmental Sciences, Inc.</displayName><displayName>MIG|TRA Environmental Sciences, Inc.</displayName></mdContact><mdMaint xmlns=\"\"><maintFreq><MaintFreqCd value=\"012\"/></maintFreq></mdMaint></metadata>\r\n"
+    }
+  ],
+  "rGBColorProfile" : "sRGB IEC61966-2-1 noBPC",
+  "cMYKColorProfile" : "U.S. Web Coated (SWOP) v2"
+}

@@ -1,0 +1,22 @@
+---
+title: "data_exploration"
+author: "Conor McMahon"
+date: "11/15/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE, echo=FALSE, message=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(rgdal)
+```
+
+First lets load some test data, starting with the Salinas River dataset, which is in shapefile format (other VegCAMP products are mostly GDB):
+
+```{r}
+
+
+
+
+```
