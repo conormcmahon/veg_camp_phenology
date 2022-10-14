@@ -10,13 +10,178 @@ knitr::opts_chunk$set(echo = TRUE)
 
 library(tidyverse)
 library(rgdal)
+library(here)
 ```
 
 First lets load some test data, starting with the Salinas River dataset, which is in shapefile format (other VegCAMP products are mostly GDB):
 
 ```{r}
 
-
-
+salinas_sp <- readOGR(here::here("VegCAMP","salinas_river_ds615","ds615.shp"))
 
 ```
+
+For our purposes, we're probably most interested in the vegetation class information provided by the field NVCSName - let's see what classes this shapefile contains:
+
+```{r}
+
+# Drop any features which have no information on class:
+salinas_sp <- salinas_sp[which(!is.na(salinas_sp$NVCSNAME)),]
+
+# For convenience, get a data frame copy (which can be used with tidyverse functions)
+salinas_df <- as.data.frame(salinas_sp)
+
+unique(salinas_sp$NVCSNAME)
+
+```
+
+From these, we'll say that the following are riparian tree species: 
+
+Populus fremontii, Platanus racemosa, Alnus rhombifolia, Salix lasiolepis, 
+
+The following assemblages are also made up of riparian trees: 
+
+"Temperate Flooded and Swamp Forest", "Alnus rhombifolia-Platanus racemosa", Southwestern North American Riparian, Flooded and Swamp Forest"
+
+Riverine is probably riparian but non-vegetative. Same for Lacustrine. 
+
+Other species to keep in mind: Quercus lobata, Quercus douglasii are deciduous trees that are not riparian. Quercus agrifolia is an important upland evergreen tree. 
+
+Other riparian plants which aren't trees: 
+
+Salix exigua, Arundo donax, Baccharis salicifolia, Baccharis pilularis (sometimes), "Western North America Wet meadow and Low Shrub Carr", "Western North America Freshwater Marsh"
+
+Lets plot out the locations of our definite riparian trees: 
+
+
+```{r}
+
+riparian_trees <- salinas_sp[which(salinas_sp$NVCSNAME %in% c("Populus fremontii", "Platanus racemosa", "Alnus rhombifolia", "Salix lasiolepis")),]
+
+plot(riparian_trees)
+
+writeOGR(riparian_trees, here::here("output","salinas_riparian_trees.shp"), layer="salinas_riparian_trees", driver="ESRI Shapefile", overwrite=TRUE)
+
+```
+
+We might also be interested in tree density - we don't want to get phenology information from a plot that's only 10% tree cover! For the Salinas dataset, this is encoded in the TreeDensity variable, with a classification scheme from 1 to 5. Densely wooded forest is valued at 1, and 80% or greater cover at 2. We'll threshold to just these values...
+
+
+```{r}
+
+riparian_trees_dense <- riparian_trees[which(riparian_trees$TreeDens < 3),]
+
+plot(riparian_trees_dense)
+
+writeOGR(riparian_trees_dense, here::here("output","salinas_riparian_trees_dense.shp"), layer="salinas_riparian_trees_dense", driver="ESRI Shapefile", overwrite=TRUE)
+
+print(paste("Out of ",
+            nrow(riparian_trees),
+            " tree polygons with a total area of ",
+            sum(riparian_trees$Acres),
+            " acres, only ",
+            nrow(riparian_trees_dense),
+            " tree polygons with a total area of ",
+            sum(riparian_trees_dense$Acres),
+            " acres were of high tree density.",
+            sep=""))
+      
+```
+
+Unfortunately, a quick comparison to Google Images indicates that many of these classes are quite out od date - many 'dense' riparian wooded areas are now cropland or some other shrubby class. Lets try again with a more recent dataset - Orange County, from 2012.
+
+
+```{r}
+
+orange_sp <- readOGR(here::here("VegCAMP","orange_county_2012_ds1336","ds1336.gdb"))
+
+# Drop any features which have no information on class:
+orange_sp <- orange_sp[which(!is.na(orange_sp$NVCSName)),]
+
+# For convenience, get a data frame copy (which can be used with tidyverse functions)
+orange_df <- as.data.frame(orange_sp)
+
+unique(orange_sp$NVCSName)
+
+```
+
+This time, lets also consider the following trees: 
+
+Salix gooddingii, Salix laevigata, Populus trichocarpa 
+
+"Southwestern North American riparian/wash scrub", 
+
+```{r}
+
+riparian_trees_orange <- orange_sp[which(orange_sp$NVCSName %in% c("Populus fremontii", "Platanus racemosa", "Alnus rhombifolia","Populus trichocarpa")),]
+
+riparian_shrubs_orange <- orange_sp[which(orange_sp$NVCSName %in% c("Salix lasiolepis","Salix gooddingii","Salix laevigata", "Baccharis salicifolia")),]
+
+plot(riparian_trees_orange)
+
+writeOGR(riparian_trees_orange, here::here("output","orange_riparian_trees.shp"), layer="orange_riparian_trees", driver="ESRI Shapefile", overwrite=TRUE)
+
+writeOGR(riparian_shrubs_orange, here::here("output","orange_riparian_shrubs"), layer="orange_riparian_trees", driver="ESRI Shapefile", overwrite=TRUE)
+
+riparian_trees_orange_dense <- riparian_trees_orange[which(riparian_trees_orange$HWDensity < 3),]
+riparian_shrubs_orange_dense <- riparian_shrubs_orange[which(riparian_shrubs_orange$HWDensity < 3),]
+
+plot(riparian_trees_orange_dense)
+
+writeOGR(riparian_trees_orange_dense, here::here("output","orange_riparian_trees_dense.shp"), layer="orange_riparian_trees_dense", driver="ESRI Shapefile", overwrite=TRUE)
+writeOGR(riparian_shrubs_orange_dense, here::here("output","orange_riparian_shrubs_dense.shp"), layer="orange_riparian_shrubs_dense", driver="ESRI Shapefile", overwrite=TRUE)
+
+print(paste("Out of ",
+            nrow(riparian_trees_orange),
+            " tree polygons with a total area of ",
+            sum(riparian_trees_orange$Acres),
+            " acres, only ",
+            nrow(riparian_trees_orange_dense),
+            " tree polygons with a total area of ",
+            sum(riparian_trees_orange_dense$Acres),
+            " acres were of high tree density.",
+            sep=""))
+      
+```
+
+Alternatively, this dataset actually includes its own 'riparian' flag. We'll show what that class looks like, and also the inverse class (everything flagged explicitly as NOT riparian):
+
+
+```{r}
+
+riparian_orange <- orange_sp[orange_sp$Riparian==1,]
+
+plot(riparian_orange)
+
+writeOGR(riparian_orange, here::here("output","riparian_orange.shp"), layer="riparian_orange", driver="ESRI Shapefile", overwrite=TRUE)
+
+upland_orange <- orange_sp[orange_sp$Riparian==0,]
+
+plot(upland_orange)
+
+writeOGR(upland_orange, here::here("output","upland_orange.shp"), layer="upland_orange", driver="ESRI Shapefile", overwrite=TRUE)
+
+```
+
+Now lets output a final dataset which is formatted in the way Google Earth Engine likes - all a single file, with integers from 0 to n indicating the n+1 classes. Lets try it for now as a simple riparian or not riparian mask. 
+
+```{r}
+
+# Set 'Riparian' as a binary flag to be used by GEE (although this should really already be correct) 
+riparian_orange$Riparian <- 1
+upland_orange$Riparian <- 0
+
+training_data <- rbind(riparian_orange, upland_orange)
+
+writeOGR(training_data, here::here("output","training_data.shp"), layer="training_data", driver="ESRI Shapefile", overwrite=TRUE)
+
+```
+
+
+Had some issues even with this dataset, with confusion of urban street trees that are also deciduous but are largely omitted from the dataset. Let's add in some of our own urban trees:
+
+
+
+
+Next let's look a bit at another, larger scene which was collected more recently (2016 imagery):
+
